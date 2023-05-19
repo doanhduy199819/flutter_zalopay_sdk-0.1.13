@@ -1,0 +1,45 @@
+group 'com.flutterzalopay.flutter_zalo_sdk'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs project(':flutter_zalopay_sdk').file('libs')
+            // e.g. dirs project(':url_launcher').file('libs')  - don't miss the ':'
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation files('libs/zpdk-release.aar')
+    implementation (name: 'zpdk-release', ext: 'aar')
+
+}
+

@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string not_find_app_id
+string not_find_uri_scheme

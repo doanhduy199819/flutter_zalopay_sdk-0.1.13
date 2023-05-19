@@ -1,0 +1,4 @@
+#Fri May 19 15:01:48 ICT 2023
+base.0=E\:\\Ball's\\Capstone 2\\goodwill\\flutter_zalopay_sdk-0.1.13\\example\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_zalopay_sdk (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_zalopay_sdk (from `.symlinks/plugins/flutter_zalopay_sdk/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_zalopay_sdk:
+    :path: ".symlinks/plugins/flutter_zalopay_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_zalopay_sdk: 8a64012a7591439a3acb3e0a30b16a8fb610bd74
+
+PODFILE CHECKSUM: 70771aecc8a4d22ae007528b3b2030548f86adfa
+
+COCOAPODS: 1.11.3
